@@ -4,6 +4,8 @@
 <h1 align="center">Glow Button</h1>
 <p align="center">Android Library to beautify your layouts with glowing buttons</p>
 
+<img src="/images/screen_shot_1.png" width="220">
+
 ## :pencil2: Usage
 
 ### Step 1: Add it in your root build.gradle
@@ -22,7 +24,7 @@ dependencies {
 ```
 
 ### Step 3: Use it in your layout
-Glow button have the following attributes in addition to the default button attributes
+Glow button have the following attributes in addition to the default button attributes. Please see the [demo app](https://github.com/SanojPunchihewa/GlowButton/blob/master/app/src/main/res/layout/activity_main.xml)
 ```xml
     <com.sanojpunchihewa.glowbutton.GlowButton
         ...
