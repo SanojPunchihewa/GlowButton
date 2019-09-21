@@ -1,3 +1,4 @@
+[![Build Status](https://travis-ci.com/SanojPunchihewa/GlowButton.svg?branch=master)](https://travis-ci.com/SanojPunchihewa/GlowButton)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/SanojPunchihewa/GlowButton/blob/master/LICENSE)
 
 <h1 align="center">Glow Button</h1>
