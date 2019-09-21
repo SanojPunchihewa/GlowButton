@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="GlowButton">
+        <attr name="buttonColor" format="color" />
+        <attr name="glowColor" format="color" />
+        <attr name="unpressedGlowSize" format="dimension" />
+        <attr name="pressedGlowSize" format="dimension" />
+        <attr name="cornerRadius" format="dimension" />
+    </declare-styleable>
+</resources>

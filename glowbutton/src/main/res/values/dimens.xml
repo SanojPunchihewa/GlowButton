@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="default_corner_radius">50dp</dimen>
+    <dimen name="default_unpressed_glow_size">10dp</dimen>
+    <dimen name="default_pressed_glow_size">12dp</dimen>
+</resources>
