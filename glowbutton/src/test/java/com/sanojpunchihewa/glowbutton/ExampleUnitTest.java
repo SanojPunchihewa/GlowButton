@@ -1,8 +1,8 @@
 package com.sanojpunchihewa.glowbutton;
 
-import org.junit.Test;
-
 import static org.junit.Assert.*;
+
+import org.junit.*;
 
 /**
  * Example local unit test, which will execute on the development machine (host).
