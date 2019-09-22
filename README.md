@@ -1,7 +1,13 @@
 [![Build Status](https://travis-ci.com/SanojPunchihewa/GlowButton.svg?branch=master)](https://travis-ci.com/SanojPunchihewa/GlowButton)
+[![](https://jitpack.io/v/SanojPunchihewa/GlowButton.svg)](https://jitpack.io/#SanojPunchihewa/GlowButton)
+[![Android Arsenal]( https://img.shields.io/badge/Android%20Arsenal-Glow%20Button-green.svg?style=flat )]( https://android-arsenal.com/details/1/7866 )
+[![API](https://img.shields.io/badge/API-21%2B-brightgreen.svg?style=flat)](https://android-arsenal.com/api?level=21)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/SanojPunchihewa/GlowButton/blob/master/LICENSE)
 
-<h1 align="center">Glow Button</h1>
+<div align="center">
+    <img src="/images/logo.png" width="200"/>
+</div>
+
 <p align="center">Android Library to beautify your layouts with glowing buttons</p>
 
 <img src="/images/screen_shot_1.png" width="220">
