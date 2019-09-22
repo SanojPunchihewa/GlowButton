@@ -42,6 +42,15 @@ Glow button have the following attributes in addition to the default button attr
         ...
         />
 ```
+## :wrench: Customizable attributes
+
+|  Attribute    |   default value   | xml           | 
+|---------------|-------------------|---------------|
+| button color  |      #8800FF      | buttonColor   |
+| glow color |      #885BFC      | glowColor |
+| unpressed glow size  |  10dp   | unpressedGlowSize   |
+| pressed glow size |        12dp        | pressedGlowSize  |
+| corner radius |        50dp        | cornerRadius  |
 
 ## :open_hands: Contributions
 Any contributions are welcome!
