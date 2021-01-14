@@ -114,11 +114,56 @@ public class GlowButton extends AppCompatButton implements View.OnTouchListener 
 
     }
 
+    public void setBackgroundColor(int backgroundColor){
+        mBackgroundColor = backgroundColor;
+        updateButtonGlow();
+    }
+
+    public int getBackgroundColor() {
+        return mBackgroundColor;
+    }
+
+    public void setGlowColor(int glowColor){
+        mGlowColor = glowColor;
+        updateButtonGlow();
+    }
+
+    public int getGlowColor() {
+        return mGlowColor;
+    }
+
+    public void setUnpressedGlowSize(int unpressedGlowSize){
+        mUnpressedGlowSize = unpressedGlowSize;
+        updateButtonGlow();
+    }
+
+    public int getUnpressedGlowSize() {
+        return mUnpressedGlowSize;
+    }
+
+    public void setPressedGlowSize(int pressedGlowSize){
+        mPressedGlowSize = pressedGlowSize;
+        updateButtonGlow();
+    }
+
+    public int getPressedGlowSize() {
+        return mPressedGlowSize;
+    }
+
+    public void setCornerRadius(int cornerRadius){
+        mCornerRadius = cornerRadius;
+        updateButtonGlow();
+    }
+
+    public int getCornerRadius() {
+        return mCornerRadius;
+    }
+
     public static Drawable getBackgroundWithGlow(View view, int backgroundColor,
-            int glowColor,
-            int cornerRadius,
-            int unPressedGlowSize,
-            int pressedGlowSize) {
+                                                 int glowColor,
+                                                 int cornerRadius,
+                                                 int unPressedGlowSize,
+                                                 int pressedGlowSize) {
 
         float[] outerRadius = new float[8];
         Arrays.fill(outerRadius, cornerRadius);
