@@ -114,7 +114,7 @@ public class GlowButton extends AppCompatButton implements View.OnTouchListener 
 
     }
 
-    public void setBackgroundColor(int backgroundColor){
+    public void setBackgroundColor(int backgroundColor) {
         mBackgroundColor = backgroundColor;
         updateButtonGlow();
     }
@@ -123,7 +123,7 @@ public class GlowButton extends AppCompatButton implements View.OnTouchListener 
         return mBackgroundColor;
     }
 
-    public void setGlowColor(int glowColor){
+    public void setGlowColor(int glowColor) {
         mGlowColor = glowColor;
         updateButtonGlow();
     }
@@ -132,7 +132,7 @@ public class GlowButton extends AppCompatButton implements View.OnTouchListener 
         return mGlowColor;
     }
 
-    public void setUnpressedGlowSize(int unpressedGlowSize){
+    public void setUnpressedGlowSize(int unpressedGlowSize) {
         mUnpressedGlowSize = unpressedGlowSize;
         updateButtonGlow();
     }
@@ -141,7 +141,7 @@ public class GlowButton extends AppCompatButton implements View.OnTouchListener 
         return mUnpressedGlowSize;
     }
 
-    public void setPressedGlowSize(int pressedGlowSize){
+    public void setPressedGlowSize(int pressedGlowSize) {
         mPressedGlowSize = pressedGlowSize;
         updateButtonGlow();
     }
@@ -150,7 +150,7 @@ public class GlowButton extends AppCompatButton implements View.OnTouchListener 
         return mPressedGlowSize;
     }
 
-    public void setCornerRadius(int cornerRadius){
+    public void setCornerRadius(int cornerRadius) {
         mCornerRadius = cornerRadius;
         updateButtonGlow();
     }
@@ -160,10 +160,10 @@ public class GlowButton extends AppCompatButton implements View.OnTouchListener 
     }
 
     public static Drawable getBackgroundWithGlow(View view, int backgroundColor,
-                                                 int glowColor,
-                                                 int cornerRadius,
-                                                 int unPressedGlowSize,
-                                                 int pressedGlowSize) {
+            int glowColor,
+            int cornerRadius,
+            int unPressedGlowSize,
+            int pressedGlowSize) {
 
         float[] outerRadius = new float[8];
         Arrays.fill(outerRadius, cornerRadius);
