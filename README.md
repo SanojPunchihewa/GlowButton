@@ -25,7 +25,7 @@ allprojects {
 ### Step 2: Add the dependency
 ```Gradle
 dependencies {
-    implementation 'com.github.SanojPunchihewa:GlowButton:1.0.0'
+    implementation 'com.github.SanojPunchihewa:GlowButton:1.0.1'
 }
 ```
 
